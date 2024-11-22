@@ -1,0 +1,356 @@
+.MuiDataGrid-main > div:nth-child(3) {
+    display: none !important;
+    color: transparent !important;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.MuiButton-containedPrimary, .MuiAppBar-colorPrimary {
+    background-color: #651fff !important;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87) !important;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+.MuiTypography-body1 {
+    font-size: 14px !important;
+}
+
+.container {
+    width: 1300px;
+    padding: 0 15px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.reg-container {
+    min-height: 100vh;
+    position: relative;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.react-multi-carousel-list {
+    height: 100%;
+}
+
+.react-multi-carousel-dot-list {
+    bottom: 15px !important;
+}
+
+.react-multi-carousel-dot button {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    border-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.react-multi-carousel-dot--active button {
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    transition: all .02s linear;
+    color: #651fff;
+}
+
+a:hover {
+    transition: all .02s linear;
+}
+
+main {
+    width: calc(100% - 260px);
+    margin-left: auto;
+    padding: 0 45px 0 85px;
+}
+
+
+a.active {
+    background-color: #1FB8EC1F;
+}
+
+a.active .MuiSvgIcon-root {
+    color: #651fff !important;
+}
+
+a.active span {
+    color: #651fff !important;
+}
+
+/*.dataTables_wrapper{*/
+/*    width: 100%;*/
+/*}*/
+
+.pagination .page-item.active .page-link {
+    background-color: #651fff !important;
+}
+
+.no_border {
+    border: none;
+}
+
+.trans_b {
+    background-color: transparent;
+}
+
+.status_l {
+    display: flex;
+    align-items: center;
+}
+
+.status_l i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+
+}
+
+.status_l.active i {
+    background-color: green;
+}
+
+.status_l.in_active i {
+    background-color: red;
+}
+
+.status_l span {
+    margin-left: 7.5px;
+    font-weight: bold;
+}
+
+table.table th, table.table td {
+    padding-top: 0.6rem !important;
+    padding-bottom: 0.6rem !important;
+}
+
+.MuiButton-text {
+    color: #651fff !important;
+}
+
+.makeStyles-root-1 button {
+    margin-right: 15px;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.MuiDataGrid-footerContainer p {
+    margin-bottom: 0 !important;
+}
+
+.MuiButton-outlined {
+    display: flex;
+    justify-content: center;
+}
+
+.MuiDataGrid-cell--withRenderer {
+    display: flex;
+    justify-content: center !important;
+}
+
+button {
+    border: none !important;
+    outline: none !important;
+}
+
+.MuiDataGrid-cell {
+    justify-content: center;
+}
+
+.table_wrapper {
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.MuiTextField-root {
+    width: 100%;
+}
+
+.MuiAutocomplete-root {
+    width: 100% !important;
+}
+
+.MuiPaper-root {
+    padding-top: 10px;
+}
+
+.MuiCardHeader-root {
+    padding-top: 15px !important;
+}
+
+.MuiDataGrid-root {
+    height: 83vh !important;
+}
+
+header {
+    padding-top: 0 !important;
+}
+
+.MuiDrawer-paper {
+    padding-top: 0 !important;
+}
+
+.MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+    background-color: #651fff !important;
+}
+
+.MuiSwitch-colorPrimary.Mui-checked {
+    color: #651fff !important;
+}
+
+.MuiButton-label {
+    color: #651fff;
+}
+
+.MuiButton-containedPrimary .MuiButton-label {
+    color: #FFFFFF;
+}
+
+.MuiButton-root.Mui-disabled .MuiButton-label {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.MuiInputBase-colorPrimary {
+    background-color: #F3F3F3;
+}
+
+.App-wrapper {
+    margin-top: 105px;
+}
+
+.apexcharts-legend-text {
+    font-size: 16px !important;
+}
+
+code {
+    display: inline-block;
+    max-width: 600px;
+    padding: 0;
+    line-height: 1.5;
+    font-family: monospace;
+    color: #ccc
+}
+
+.sc-gauge {
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+    margin-top: 15px;
+}
+
+.sc-background {
+    position: relative;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #F2F2F2;
+    border-radius: 150px 150px 0 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+:root {
+    --angle: 90deg;
+}
+
+.sc-mask {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 150px 150px 0 0;
+}
+
+.sc-percentage {
+    position: absolute;
+    top: 100px;
+    left: -200%;
+    width: 400%;
+    height: 400%;
+    margin-left: 100px;
+    background-color: #00aeef;
+}
+
+.sc-percentage {
+    transform: rotate(var(--angle));
+    transition: all 0.3s linear;
+    transform-origin: top center;
+}
+
+.sc-min {
+    float: left;
+}
+
+.sc-max {
+    float: right;
+}
+
+.sc-value {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.semi_title {
+    color: #D0D0D0;
+    font-size: 16px;
+    margin-top: 15px;
+    position: relative;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page_title {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 61px;
+    color: #651fff;
+    margin-bottom: 15px;
+
+}
+
+.MuiFormControlLabel-label {
+    color: #000;
+    font-size: 16px !important;
+}
+.MuiTypography-h6{
+    color: #651fff;
+}
+
+@media (max-width: 1600px) {
+    .App-wrapper {
+        position: relative;
+        left: 120px;
+    }
+}

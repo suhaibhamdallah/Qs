@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="672.536" height="342" viewBox="0 0 672.536 342">
+  <g id="Group_330" data-name="Group 330" transform="translate(0 2)">
+    <g id="Group_107" data-name="Group 107" transform="translate(50.5 6.5)" opacity="0.8">
+      <line id="Line_28" data-name="Line 28" x2="622.036" transform="translate(0)" fill="none" stroke="#8898aa" stroke-width="1" stroke-dasharray="3"/>
+      <line id="Line_29" data-name="Line 29" x2="622.036" transform="translate(0 50)" fill="none" stroke="#8898aa" stroke-width="1" stroke-dasharray="3"/>
+      <line id="Line_30" data-name="Line 30" x2="622.036" transform="translate(0 100)" fill="none" stroke="#8898aa" stroke-width="1" stroke-dasharray="3"/>
+      <line id="Line_31" data-name="Line 31" x2="622.036" transform="translate(0 150)" fill="none" stroke="#8898aa" stroke-width="1" stroke-dasharray="3"/>
+      <line id="Line_32" data-name="Line 32" x2="622.036" transform="translate(0 200)" fill="none" stroke="#8898aa" stroke-width="1" stroke-dasharray="3"/>
+      <line id="Line_33" data-name="Line 33" x2="622.036" transform="translate(0 250)" fill="none" stroke="#8898aa" stroke-width="1" stroke-dasharray="3"/>
+      <line id="Line_34" data-name="Line 34" x2="622.036" transform="translate(0 300)" fill="none" stroke="#8898aa" stroke-width="1" stroke-dasharray="3"/>
+    </g>
+    <g id="Group_108" data-name="Group 108">
+      <text id="_0" data-name="0" transform="translate(7 311)" fill="#8898aa" font-size="11" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">0</tspan></text>
+      <text id="_10" data-name="10" transform="translate(3 259)" fill="#8898aa" font-size="11" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">10</tspan></text>
+      <text id="_20" data-name="20" transform="translate(1 210)" fill="#8898aa" font-size="11" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">20</tspan></text>
+      <text id="_30" data-name="30" transform="translate(0 161)" fill="#8898aa" font-size="11" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">30</tspan></text>
+      <text id="_40" data-name="40" transform="translate(0 110)" fill="#8898aa" font-size="11" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">40</tspan></text>
+      <text id="_50" data-name="50" transform="translate(0 59)" fill="#8898aa" font-size="11" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">50</tspan></text>
+      <text id="_60" data-name="60" transform="translate(0 9)" fill="#8898aa" font-size="11" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">60</tspan></text>
+    </g>
+    <g id="Group_109" data-name="Group 109" transform="translate(80.396 329)">
+      <text id="May" transform="translate(-0.396 8)" fill="#8898aa" font-size="11" font-family="Helvetica"><tspan x="0" y="0">Jun</tspan></text>
+      <text id="May-2" data-name="May" transform="translate(122.604 8)" fill="#8898aa" font-size="11" font-family="Helvetica"><tspan x="0" y="0">Jul</tspan></text>
+      <text id="May-3" data-name="May" transform="translate(220.604 8)" fill="#8898aa" font-size="11" font-family="Helvetica"><tspan x="0" y="0">Sep</tspan></text>
+      <text id="May-4" data-name="May" transform="translate(317.604 8)" fill="#8898aa" font-size="11" font-family="Helvetica"><tspan x="0" y="0">Oct</tspan></text>
+      <text id="May-5" data-name="May" transform="translate(407.604 8)" fill="#8898aa" font-size="11" font-family="Helvetica"><tspan x="0" y="0">Nov</tspan></text>
+    </g>
+  </g>
+</svg>

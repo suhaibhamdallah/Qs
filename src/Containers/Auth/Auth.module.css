@@ -1,0 +1,106 @@
+.auth_wrapper {
+    width: 50%;
+    padding-right: 75px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.auth_wrapper form {
+    width: 100%;
+    padding-bottom: 25px;
+    /* opacity: 0.16; */
+}
+
+.auth_wrapper form .MuiFormControl-root {
+    background-color: #F3F3F3 !important;
+}
+
+.auth_wrapper input {
+    width: 348px;
+    background-color: #F3F3F3 !important;
+}
+
+.auth_wrapper input {
+    width: 348px;
+    background-color: #F3F3F3 !important;
+}
+
+.auth_form_head {
+    margin-bottom: 35px;
+}
+
+.auth_form_title {
+    text-align: left;
+    font: normal normal 600 33px/40px Montserrat;
+    letter-spacing: 0px;
+    color: #651fff;
+    margin-bottom: 23px;
+}
+
+.auth_form_desc {
+    text-align: left;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.auth_ftr_link span {
+    text-align: left;
+    font: normal normal 600 17px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.auth_ftr_link a {
+    color: #651fff;
+    box-shadow: 0px 3px 15px #0000000D;
+    opacity: 1;
+    text-decoration: none;
+    margin-left: 5px;
+    font: normal normal bold 17px/20px Montserrat;
+}
+
+.auth_form_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.auth_form_btn button {
+    width: 260px;
+}
+
+.auth_wrapper_input > div {
+    padding-left: 0 !important;
+    position: relative;
+}
+
+/*.auth_wrapper_input > div:after {*/
+/*    content:''; */
+/*   position: absolute;*/
+/*    left: 0;*/
+/*    width: 5px;*/
+/*    top: 0;*/
+/*    background-color: #00A0D7;*/
+/*}*/
+.err_message {
+    display: flex;
+    align-items: center;
+    color: #F3348F;
+    background-color: rgba(245, 65, 151, 0.15);
+    height: 55px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+
+}
+
+.err_message span {
+    color: #F3348F !important;
+    margin: 0;
+    margin-left: 10px;
+}

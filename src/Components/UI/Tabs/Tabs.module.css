@@ -1,0 +1,23 @@
+.active_class {
+    background-color: #651fff;
+}
+
+.tab {
+    border-radius: 18px;
+    padding: 8px 30px;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 24.5px;
+    width: fit-content;
+    padding: 7px 25px;
+    margin-bottom: 35px;
+}
+
+.tab + .tab {
+    margin-left: 25px;
+}

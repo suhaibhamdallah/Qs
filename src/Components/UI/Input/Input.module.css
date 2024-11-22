@@ -1,0 +1,124 @@
+.Input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 31px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #651fff;
+    border-radius: 4px;
+    opacity: 1;
+    margin-left: 15px;
+    padding: 0 10px;
+}
+
+input {
+    height: 31px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #651fff;
+    border-radius: 4px;
+    opacity: 1;
+    margin-left: 15px;
+    padding: 0 10px;
+    background-color: #FFFFFF !important;
+}
+
+
+.Label {
+    text-align: left;
+    font: normal normal bold 17px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.InputElement {
+    /*height: 31px;*/
+    /*background: #FFFFFF 0% 0% no-repeat padding-box;*/
+    /*border: 1px solid #C3C3C3;*/
+    /*border-radius: 10px;*/
+    /*border-radius: 4px;*/
+    /*opacity: 1;*/
+    /*height: 45px;*/
+    /*width: 348px;*/
+    /*padding: 0 15px;*/
+    /*text-align: left;*/
+    /*font: normal normal normal 14px/18px Montserrat;*/
+    /*letter-spacing: 0px;*/
+    /*color: #000000;*/
+    /*margin-left: 15px;*/
+    /*padding: 0 10px;*/
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color: #ccc;
+    border: 2px solid #651fff;
+}
+
+.Invalid {
+    border: 1px solid red !important;
+}
+
+.input_wrapper {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+
+}
+
+.input_wrapper:nth-child(even) {
+    padding-left: 10px;
+}
+
+.input_wrapper:last-of-type {
+    padding-left: 10px;
+}
+
+.input_wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.input_wrapper:first-child {
+    margin-left: 0;
+}
+
+.full_width {
+    width: 100%;
+    margin-left: 0;
+}
+
+.half_width {
+    width: 50%;
+    margin-left: 0;
+
+}
+
+.with_label+div {
+    margin-top: auto;
+}
+
+.half_width input {
+    width: 100%;
+}
+
+.n_m {
+    margin-left: 0;
+}
+
+.m_b {
+    margin-bottom: 15px;
+}
+
+.n_m_l, .n_m_l input {
+    margin-left: 0;
+}
+
+.p_l_n {
+    padding-left: 0 !important;
+}
+.label_before{
+    color: #651fff;
+    /* font-weight: bold; */
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}

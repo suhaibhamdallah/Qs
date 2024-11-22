@@ -1,0 +1,24 @@
+.item_status {
+    width: 33px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.green{
+    background-color: #10B414;
+
+}
+.red{
+    background-color: #FD0D1B;
+}
+.large{
+    width: 50px;
+    height: 50px;
+}

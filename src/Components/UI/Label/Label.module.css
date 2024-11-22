@@ -1,0 +1,23 @@
+.err {
+    color: #FF6C6C;
+    margin-top: 8px;
+    font: normal normal medium 10px/13px Montserrat;
+    letter-spacing: 0px;
+    opacity: 1;
+    display: block;
+    /*width: 355px;*/
+    text-align: left;
+}
+.ok {
+    margin-top: 8px;
+    text-align: right;
+    font: normal normal medium 10px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #10B414;
+    opacity: 1;
+    display: block;
+}
+.aut_msg{
+    font-weight: bold;
+    text-align: center;
+}

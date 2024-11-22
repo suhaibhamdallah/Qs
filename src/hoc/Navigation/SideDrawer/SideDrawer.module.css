@@ -1,0 +1,9 @@
+.s_drawer {
+    width: 260px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+    height: 100vh;
+    box-shadow: 5px 0 5px -2px #88888817;
+}
