@@ -200,8 +200,8 @@ export default function FullFeaturedDemo() {
     const [isAntDesign, setIsAntDesign] = React.useState(false);
     const [type, setType] = React.useState('Commodity');
     const [size, setSize] = React.useState(100);
-    const pbxSetup = useSelector((state) => state);
-    let rowsData = pbxSetup.user.users;
+    const baseSetup = useSelector((state) => state);
+    let rowsData = baseSetup.user.users;
 
     const [popupProps, setPopupProps] = React.useState({
         content: "", type: "", audio: "", active: false, title: ""
@@ -222,7 +222,7 @@ export default function FullFeaturedDemo() {
         field: "email", headerName: "Email", hide: false, width: "170",
     }, {
         field: "actions", headerName: "Actions", renderCell: (cellValues) => {
-            let _row = pbxSetup.user.users.filter((key) => (key.id === cellValues.row.id));
+            let _row = baseSetup.user.users.filter((key) => (key.id === cellValues.row.id));
             return (<div>
                 <IconButton
                     color="inherit"
@@ -247,12 +247,12 @@ export default function FullFeaturedDemo() {
         }
     }]
     React.useEffect(() => {
-        // setRows(pbxSetup.extension.extensions);
-        rowsData = pbxSetup.user.users;
-        if (pbxSetup.user.updatedUser || pbxSetup.user.addedUser) {
+        // setRows(baseSetup.extension.extensions);
+        rowsData = baseSetup.user.users;
+        if (baseSetup.user.updatedUser || baseSetup.user.addedUser) {
             hidePopup();
         }
-    }, [pbxSetup.user.addedUser, pbxSetup.user.updatedUser]);
+    }, [baseSetup.user.addedUser, baseSetup.user.updatedUser]);
 
     const showPopup = (props) => setPopupProps({...popupProps, active: true, ...props});
     const hidePopup = () => setPopupProps({...popupProps, active: false, audio: ""});
@@ -306,32 +306,24 @@ export default function FullFeaturedDemo() {
     const classesGridPrp = [isAntDesign ? antDesignClasses.root : undefined, classes.root_pro];
     const popupContent = () => {
         const _didsArr = [];
-        pbxSetup.setupPbx.dids.map((_item) => {
-            _didsArr.push({value: _item.did, key: _item.did});
-        })
         switch (popupProps.component) {
             case "update":
-                const _item = pbxSetup.user.users.filter((el) => el.id == popupProps.id)[0];
+                const _item = baseSetup.user.users.filter((el) => el.id == popupProps.id)[0];
                 let _jsx = <User onCanceled={hidePopup} item={_item} dids={_didsArr} toggleFormValid={(status) => {
                 }} updateHandler={(data) => {
-                    const roles = pbxSetup.setupPbx.roles;
+                    const roles = baseSetup.baseSetup().roles;
                 }}/>;
                 if (typeof _item == "undefined") {
                     _jsx = null;
                 }
                 return _jsx;
             case "add":
-                const roles = pbxSetup.setupPbx.roles;
+                const roles = baseSetup.baseSetup().roles;
                 return (<AddUser roles={roles} dids={_didsArr} onCanceled={hidePopup} addHandler={(data) => {
                 }}/>)
         }
         return null;
     };
-    // const popupContent = () => (pbxSetup.cdr.audioUrl ? <ReactAudioPlayer
-    //     src={`http://10.64.5.73/pbx_portal/public/cdr/play/${pbxSetup.cdr.audioUrl}`}
-    //     autoPlay
-    //     controls
-    // /> : null);
     return (
 
         <div className={classes.root}>
@@ -359,7 +351,7 @@ export default function FullFeaturedDemo() {
                 components={{
                     Toolbar: GridToolbar,
                 }}
-                loading={pbxSetup.user.loading}
+                loading={baseSetup.user.loading}
                 checkboxSelection
                 disableSelectionOnClick
                 {...pagination}

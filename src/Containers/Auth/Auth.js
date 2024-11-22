@@ -245,13 +245,6 @@ class Auth extends Component {
         return (<div className=" reg-container">
                 <div className={(classes.auth_wrapper)}>
                     <div className={classes.auth_form_head}>
-                        {/*<div className={classes.auth_form_title}>*/}
-                        {/*    {this.state.signUpMode ? "Create account" : "Login To PBX"}*/}
-
-                        {/*</div>*/}
-                        {/*<div className={classes.auth_form_desc}>*/}
-                        {/*    {this.state.signUpMode ? "Get access to dns hero by creating an account" : "Welcome back! Please enter username and password to login To your account"}*/}
-                        {/*</div>*/}
                     </div>
                     <form onSubmit={this.submitForm}>
                         {this.props.error?  <div className={classes.err_message}>

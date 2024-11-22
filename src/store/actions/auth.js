@@ -46,11 +46,8 @@ export const auth = (data) => {
 }
 export const updateAcccount = (token, data) => {
     return (dispatch) => {
-        // dispatch(fetchExtensionsStart());
-        // dispatch(pbxSetupActions.pbxLoadingStart());
         axiosBased.authInstance.defaults.headers.common['Authorization'] = `Bearer ${token}`;
         axiosBased.authInstance.post("/update-account", data).then((res) => {
-            // dispatch(pbxSetupActions.pbxLoadingFinish());
             if (typeof res !== "undefined") {
                 setTimeout(() => {
                     dispatch(updateSuccess(res.data))

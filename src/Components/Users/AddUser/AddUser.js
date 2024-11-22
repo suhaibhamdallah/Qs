@@ -192,7 +192,7 @@ class AddUser extends Component {
 
 const mapStateToprops = (state) => {
     return {
-        roles: state.setupPbx.roles, groups: state.group.groups, token: state.auth.token
+        roles: state.baseSetup.roles, groups: state.group.groups, token: state.auth.token
     }
 }
 const mapDispatchToprops = (dispatch) => ({

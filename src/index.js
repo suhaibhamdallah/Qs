@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import authReducer from './store/reducers/auth';
-import setupPbx from './store/reducers/pbxSetup';
+import baseSetup from './store/reducers/baseSetup';
 import {createStore, combineReducers,applyMiddleware, compose } from "redux";
 import {Provider} from "react-redux";
 import thunk from "redux-thunk";
@@ -11,7 +11,7 @@ import {BrowserRouter} from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 const composeEnhancers =process.env.NODE_ENV ==="development"? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose:null;
 
-const rootReducer = combineReducers({auth: authReducer,setupPbx:setupPbx})
+const rootReducer = combineReducers({auth: authReducer,baseSetup:baseSetup})
 const store = createStore(rootReducer,applyMiddleware(thunk));
 // const store = createStore(rootReducer,  composeEnhancers(applyMiddleware(thunk)));
 ReactDOM.render(

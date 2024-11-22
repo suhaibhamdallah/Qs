@@ -23,18 +23,12 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 export default function AlertDialogSlide(props) {
     const defaultTheme = createTheme();
     const dispatchCdr = useDispatch();
-    const pbxSetup = useSelector((state) => state);
+    const baseSetup = useSelector((state) => state);
     const [audio, setAudio] = React.useState("");
     const [active, isActive] = React.useState(false);
     React.useEffect(() => {
-        dispatchCdr(cdrActions.getCdrUrl(pbxSetup.auth.token, props.activeCdr.id));
+        dispatchCdr(cdrActions.getCdrUrl(baseSetup.auth.token, props.activeCdr.id));
     }, []);
-    React.useEffect(() => {
-       if(pbxSetup.cdr.audioUrl){
-           setAudio(`http://172.28.14.12/pbx_bakend/public/uploads/${pbxSetup.cdr.audioUrl}.wav`)
-       }
-
-    }, [pbxSetup.cdr.audioUrl]);
     const useStyles = makeStyles((theme) => ({
         wrap_121: {
             '&>div': {

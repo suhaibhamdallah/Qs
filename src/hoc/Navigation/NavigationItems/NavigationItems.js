@@ -17,13 +17,13 @@ let _itemsArr = [{title: 'Dashboard', link: '/',icon:DashboardIcon}, {title: 'Qu
 
 
 const NavigationItems = (props) => {
-    const pbxSetup = useSelector((state) => state);
+    const baseSetup = useSelector((state) => state);
 
-   if(pbxSetup.auth.user.role===3){
+   if(baseSetup.auth.user.role===3){
 
        _itemsArr = [{title: 'Extensions Management ', link: '/extensions-management',icon:PhoneIcon}]
    }
-   if(pbxSetup.auth.user.role===2 ||pbxSetup.auth.user.role===4){
+   if(baseSetup.auth.user.role===2 ||baseSetup.auth.user.role===4){
        _itemsArr = [{title: 'System CDRs', link: '/system-cdrs',icon:SettingsVoiceIcon}]
    }
     const navItems = _itemsArr.map((nav => (<NavigationItem title={nav.title} icon={nav.icon} link={nav.link}/>)));
